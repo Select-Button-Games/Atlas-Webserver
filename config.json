@@ -1,0 +1,14 @@
+{
+  "server": {
+    "host": "REPLACE WITH YOUR IP",
+    "port": 443 
+  },
+  "websites": [
+    {
+      "domain": "example.com",
+      "documentRoot": "./wwww/",
+      "sslCertificate": "certificate.pem",
+      "sslPrivateKey": "privatekey.pem"
+    }
+  ]
+}
